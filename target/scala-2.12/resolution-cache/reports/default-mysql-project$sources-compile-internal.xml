@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="mysql-project$sources"
+		revision="0.1"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180820163146"/>
+	<dependencies>
+		<module organisation="org.sorm-framework" name="sorm">
+			<revision name="0.3.21" status="release" pubdate="20161020152101" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/sorm/sorm" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="MIT/X11" url="http://www.github.com/sorm/sorm/LICENSE"/>
+				<metadata-artifact status="no" details="" size="5239" time="0" location="/home/pratanucool/.ivy2/cache/org.sorm-framework/sorm/ivy-0.3.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sorm-framework/sorm/0.3.21/sorm-0.3.21.pom"/>
+				<caller organisation="default" name="mysql-project$sources" conf="compile-internal, compile, provided, optional" rev="0.3.21" rev-constraint-default="0.3.21" rev-constraint-dynamic="0.3.21" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="sorm" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="62870" time="1863" location="/home/pratanucool/.ivy2/cache/org.sorm-framework/sorm/srcs/sorm-0.3.21-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sorm-framework/sorm/0.3.21/sorm-0.3.21-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging_2.11">
+			<revision name="3.9.0" status="release" pubdate="20180411153049" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/scala-logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3357" time="0" location="/home/pratanucool/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.11/ivy-3.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.11/3.9.0/scala-logging_2.11-3.9.0.pom"/>
+				<caller organisation="default" name="mysql-project$sources" conf="compile-internal, compile, provided, optional" rev="3.9.0" rev-constraint-default="3.9.0" rev-constraint-dynamic="3.9.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-logging_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11299" time="847" location="/home/pratanucool/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.11/srcs/scala-logging_2.11-3.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.11/3.9.0/scala-logging_2.11-3.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="20170316220632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5377" time="0" location="/home/pratanucool/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
+				<caller organisation="default" name="mysql-project$sources" conf="compile-internal, compile, provided, optional" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55539" time="0" location="/home/pratanucool/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.nikita-volkov" name="sext">
+			<revision name="0.2.6" status="release" pubdate="20161128021520" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.github.com/nikita-volkov/sext" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="MIT/X11" url="http://www.github.com/nikita-volkov/sext/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3754" time="0" location="/home/pratanucool/.ivy2/cache/com.github.nikita-volkov/sext/ivy-0.2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/nikita-volkov/sext/0.2.6/sext-0.2.6.pom"/>
+				<caller organisation="default" name="mysql-project$sources" conf="compile-internal, compile, provided, optional" rev="0.2.6" rev-constraint-default="0.2.6" rev-constraint-dynamic="0.2.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="sext" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4447" time="792" location="/home/pratanucool/.ivy2/cache/com.github.nikita-volkov/sext/srcs/sext-0.2.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/nikita-volkov/sext/0.2.6/sext-0.2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.nikita-volkov" name="embrace">
+			<revision name="0.1.5" status="release" pubdate="20160707081010" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.github.com/nikita-volkov/embrace" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="MIT/X11" url="http://www.github.com/nikita-volkov/embrace/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3511" time="0" location="/home/pratanucool/.ivy2/cache/com.github.nikita-volkov/embrace/ivy-0.1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/nikita-volkov/embrace/0.1.5/embrace-0.1.5.pom"/>
+				<caller organisation="default" name="mysql-project$sources" conf="compile-internal, compile, provided, optional" rev="0.1.5" rev-constraint-default="0.1.5" rev-constraint-dynamic="0.1.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="embrace" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="737" time="845" location="/home/pratanucool/.ivy2/cache/com.github.nikita-volkov/embrace/srcs/embrace-0.1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/nikita-volkov/embrace/0.1.5/embrace-0.1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.mchange" name="c3p0">
+			<revision name="0.9.2-pre5" status="release" pubdate="20120930015647" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/swaldman/c3p0" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="GNU Lesser General Public License, Version 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="2713" time="0" location="/home/pratanucool/.ivy2/cache/com.mchange/c3p0/ivy-0.9.2-pre5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/mchange/c3p0/0.9.2-pre5/c3p0-0.9.2-pre5.pom"/>
+				<caller organisation="default" name="mysql-project$sources" conf="compile-internal, compile, provided, optional" rev="0.9.2-pre5" rev-constraint-default="0.9.2-pre5" rev-constraint-dynamic="0.9.2-pre5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="c3p0" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="296019" time="2333" location="/home/pratanucool/.ivy2/cache/com.mchange/c3p0/srcs/c3p0-0.9.2-pre5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/mchange/c3p0/0.9.2-pre5/c3p0-0.9.2-pre5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.12.6" status="release" pubdate="20180427141227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2939" time="0" location="/home/pratanucool/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.6/scala-compiler-2.12.6.pom"/>
+				<caller organisation="default" name="mysql-project$sources" conf="compile-internal, compile, provided, optional" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1836089" time="0" location="/home/pratanucool/.ivy2/cache/org.scala-lang/scala-compiler/srcs/scala-compiler-2.12.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.6/scala-compiler-2.12.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.0.6" status="release" pubdate="20161101195105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="5">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2987" time="0" location="/home/pratanucool/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.pom"/>
+				<caller organisation="default" name="mysql-project$sources" conf="compile-internal, compile, provided, optional" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109199" time="0" location="/home/pratanucool/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/srcs/scala-xml_2.12-1.0.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.6" status="release" pubdate="20180427140633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2637" time="0" location="/home/pratanucool/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6.pom"/>
+				<caller organisation="default" name="mysql-project$sources" conf="compile-internal, compile, provided, optional" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="587933" time="0" location="/home/pratanucool/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="13.0.1" status="release" pubdate="20120828205726" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3752" time="0" location="/home/pratanucool/.ivy2/cache/com.google.guava/guava/ivy-13.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/13.0.1/guava-13.0.1.pom"/>
+				<caller organisation="default" name="mysql-project$sources" conf="compile-internal, compile, provided, optional" rev="13.0.1" rev-constraint-default="13.0.1" rev-constraint-dynamic="13.0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1060992" time="1653" location="/home/pratanucool/.ivy2/cache/com.google.guava/guava/srcs/guava-13.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/13.0.1/guava-13.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.6" status="release" pubdate="20180427141006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="2">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2471" time="0" location="/home/pratanucool/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.pom"/>
+				<caller organisation="default" name="mysql-project$sources" conf="compile-internal, compile, provided, optional" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="992293" time="0" location="/home/pratanucool/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.mchange" name="mchange-commons-java">
+			<revision name="0.2.3" status="release" pubdate="20120930015513" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/swaldman/mchange-commons-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="GNU Lesser General Public License, Version 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="2564" time="0" location="/home/pratanucool/.ivy2/cache/com.mchange/mchange-commons-java/ivy-0.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/mchange/mchange-commons-java/0.2.3/mchange-commons-java-0.2.3.pom"/>
+				<caller organisation="default" name="mysql-project$sources" conf="compile-internal, compile, provided, optional" rev="0.2.3" rev-constraint-default="0.2.3" rev-constraint-dynamic="0.2.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="mchange-commons-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="525156" time="1893" location="/home/pratanucool/.ivy2/cache/com.mchange/mchange-commons-java/srcs/mchange-commons-java-0.2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/mchange/mchange-commons-java/0.2.3/mchange-commons-java-0.2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.1" status="release" pubdate="20120222215242" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joda-time.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3435" time="0" location="/home/pratanucool/.ivy2/cache/joda-time/joda-time/ivy-2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.1/joda-time-2.1.pom"/>
+				<caller organisation="default" name="mysql-project$sources" conf="compile-internal, compile, provided, optional" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="700266" time="871" location="/home/pratanucool/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.1/joda-time-2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.2" status="release" pubdate="20111028012117" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joda-convert.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3246" time="0" location="/home/pratanucool/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom"/>
+				<caller organisation="default" name="mysql-project$sources" conf="compile-internal, compile, provided, optional" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="19105" time="1504" location="/home/pratanucool/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
